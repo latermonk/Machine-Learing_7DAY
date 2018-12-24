@@ -1,0 +1,1006 @@
+inputs:
+  app-name:
+    default: magento
+    description: 请添加描述
+    label: ''
+  ccec4qb0_flavor:
+    description: 集群规格
+    label: ''
+  ccenp55z_flavor:
+    description: 容器节点的规格
+    label: ''
+  ccenp55z_nodePasswd:
+    description: 节点root的密码
+    label: ''
+  dcsr1ybz_password:
+    description: 分布式缓存实例的登录密码
+    label: ''
+  mysql-database:
+    default: magento
+    description: 请添加描述
+    label: ''
+  mysql-password:
+    description: 请添加描述
+    label: ''
+    type: password
+  mysql-root-password:
+    description: 请添加描述
+    label: ''
+    type: password
+  mysql-service-name:
+    default: magento-mysql
+    description: 用户创建的云容器引擎密钥的名称
+    label: ''
+  mysql-user:
+    default: magento
+    description: 请添加描述
+    label: ''
+metadata:
+  Designer:
+    0521e393-357b-4ffb-b9a3-74d9f2a59162:
+      source:
+        id: 79a8dfd9-acc7-445f-8c23-ab4838125984
+      target:
+        id: b3b6b6e4-88c4-47e9-bb51-830365cc74e0
+      z: 1
+    0768651c-b3d9-4488-a052-c2ca46e90478:
+      isassociatedwith:
+        - b3b6b6e4-88c4-47e9-bb51-830365cc74e0
+      parent: 25a11145-640c-4850-98b6-89c3f6f36403
+      position:
+        x: 300
+        y: 150
+      size:
+        height: 90
+        width: 90
+      z: 2
+    10c461ca-542d-4f72-ae4d-9f2337580138:
+      source:
+        id: ef96ae79-8d9b-415a-80df-d7b5c855bb13
+      target:
+        id: c82301e8-e293-42ac-9fb9-333eda7d6e88
+      z: 3
+    11b4fb3c-14d7-4239-9c33-f7514adffd7a:
+      source:
+        id: ef96ae79-8d9b-415a-80df-d7b5c855bb13
+      target:
+        id: 276f9cf5-1ea8-4f7f-9afa-cffbfecfffb5
+      z: 3
+    192f0050-348e-4adc-90bd-579eeeb454bf:
+      parent: f2b01ddb-2e24-45c1-9dcf-e99bfed45960
+      position:
+        x: -102
+        y: 118
+      size:
+        height: 60
+        width: 60
+      z: 3
+    25a11145-640c-4850-98b6-89c3f6f36403:
+      embeds:
+        - 522f543b-b3fc-4d73-a98b-37c41d882dbb
+        - 950f98d0-9a01-4ef5-8c9b-92e07ec7c04d
+        - 0768651c-b3d9-4488-a052-c2ca46e90478
+        - ad148d80-d1e2-4f14-a28b-be28a865d560
+        - f2b01ddb-2e24-45c1-9dcf-e99bfed45960
+      position:
+        x: -300
+        y: 60
+      size:
+        height: 420
+        width: 720
+      z: 1
+    276f9cf5-1ea8-4f7f-9afa-cffbfecfffb5:
+      parent: f2b01ddb-2e24-45c1-9dcf-e99bfed45960
+      position:
+        x: -100
+        y: 330
+      size:
+        height: 60
+        width: 60
+      z: 3
+    46daed38-041d-48ba-9998-bdd3e87376af:
+      dependson:
+        - 192f0050-348e-4adc-90bd-579eeeb454bf
+        - c82301e8-e293-42ac-9fb9-333eda7d6e88
+        - 946d8498-a58f-4968-a226-dd8ef2354d82
+      parent: f2b01ddb-2e24-45c1-9dcf-e99bfed45960
+      position:
+        x: 8
+        y: 118
+      size:
+        height: 60
+        width: 60
+      z: 3
+    522f543b-b3fc-4d73-a98b-37c41d882dbb:
+      embeds:
+        - f04fae4a-d6e6-42f2-90d4-54a25f80343f
+      parent: 25a11145-640c-4850-98b6-89c3f6f36403
+      position:
+        x: -270
+        y: 120
+      size:
+        height: 120
+        width: 120
+      z: 2
+    5918d84f-2575-422f-8cc0-7303416e8042:
+      source:
+        id: b55a627f-414a-40af-894d-4b514601d8de
+      target:
+        id: ef96ae79-8d9b-415a-80df-d7b5c855bb13
+      z: 3
+    5c3fb3c3-96d7-47bd-a3bb-311a9aaffab1:
+      source:
+        id: c285d65e-905e-4be4-93d9-b0f9504d80e9
+      target:
+        id: 0768651c-b3d9-4488-a052-c2ca46e90478
+      z: 3
+    6b68d0bb-93af-4c11-8d72-0cfa83bb986b:
+      source:
+        id: ad148d80-d1e2-4f14-a28b-be28a865d560
+      target:
+        id: 950f98d0-9a01-4ef5-8c9b-92e07ec7c04d
+      z: 2
+    701d5bc9-3288-4bca-8352-1c7c1c1370ee:
+      source:
+        id: f2b01ddb-2e24-45c1-9dcf-e99bfed45960
+      target:
+        id: 950f98d0-9a01-4ef5-8c9b-92e07ec7c04d
+      z: 2
+    79a8dfd9-acc7-445f-8c23-ab4838125984:
+      policy:
+        - b3b6b6e4-88c4-47e9-bb51-830365cc74e0
+      position:
+        x: 450
+        y: 310
+      size:
+        height: 60
+        width: 60
+      z: 1
+    84468449-ea19-4329-9da4-399a440089cf:
+      source:
+        id: 46daed38-041d-48ba-9998-bdd3e87376af
+      target:
+        id: c82301e8-e293-42ac-9fb9-333eda7d6e88
+      z: 3
+    946d8498-a58f-4968-a226-dd8ef2354d82:
+      parent: f2b01ddb-2e24-45c1-9dcf-e99bfed45960
+      position:
+        x: -12
+        y: 258
+      size:
+        height: 60
+        width: 60
+      z: 3
+    950f98d0-9a01-4ef5-8c9b-92e07ec7c04d:
+      parent: 25a11145-640c-4850-98b6-89c3f6f36403
+      position:
+        x: -230
+        y: 260
+      size:
+        height: 60
+        width: 60
+      z: 2
+    a0af077c-9abe-41fa-bd4c-61e9ceb4815b:
+      source:
+        id: c8149e12-a523-4aaf-bf24-c3569ff8b618
+      target:
+        id: 46daed38-041d-48ba-9998-bdd3e87376af
+      z: 3
+    a1884c56-bf49-4d92-9853-5a987dc54918:
+      source:
+        id: 0768651c-b3d9-4488-a052-c2ca46e90478
+      target:
+        id: b3b6b6e4-88c4-47e9-bb51-830365cc74e0
+      z: 2
+    ad148d80-d1e2-4f14-a28b-be28a865d560:
+      isassociatedwith:
+        - 950f98d0-9a01-4ef5-8c9b-92e07ec7c04d
+        - 522f543b-b3fc-4d73-a98b-37c41d882dbb
+      parent: 25a11145-640c-4850-98b6-89c3f6f36403
+      position:
+        x: -280
+        y: 400
+      size:
+        height: 60
+        width: 60
+      z: 2
+    ad3c2e45-bef5-42db-a6ec-dfa4cee77916:
+      source:
+        id: ad148d80-d1e2-4f14-a28b-be28a865d560
+      target:
+        id: 522f543b-b3fc-4d73-a98b-37c41d882dbb
+      z: 2
+    b3b6b6e4-88c4-47e9-bb51-830365cc74e0:
+      position:
+        x: 450
+        y: 160
+      size:
+        height: 60
+        width: 60
+      z: 1
+    b55a627f-414a-40af-894d-4b514601d8de:
+      isassociatedwith:
+        - ef96ae79-8d9b-415a-80df-d7b5c855bb13
+      parent: f2b01ddb-2e24-45c1-9dcf-e99bfed45960
+      position:
+        x: 90
+        y: 300
+      size:
+        height: 60
+        width: 60
+      z: 3
+    c0ed7ea5-44f8-4fa7-a30a-b5cc8b8907be:
+      source:
+        id: 46daed38-041d-48ba-9998-bdd3e87376af
+      target:
+        id: 192f0050-348e-4adc-90bd-579eeeb454bf
+      z: 3
+    c285d65e-905e-4be4-93d9-b0f9504d80e9:
+      dependson:
+        - ef96ae79-8d9b-415a-80df-d7b5c855bb13
+      isassociatedwith:
+        - 0768651c-b3d9-4488-a052-c2ca46e90478
+      parent: f2b01ddb-2e24-45c1-9dcf-e99bfed45960
+      position:
+        x: 180
+        y: 330
+      size:
+        height: 60
+        width: 60
+      z: 3
+    c8149e12-a523-4aaf-bf24-c3569ff8b618:
+      dependson:
+        - 46daed38-041d-48ba-9998-bdd3e87376af
+      parent: f2b01ddb-2e24-45c1-9dcf-e99bfed45960
+      position:
+        x: 148
+        y: 118
+      size:
+        height: 60
+        width: 60
+      z: 3
+    c82301e8-e293-42ac-9fb9-333eda7d6e88:
+      parent: f2b01ddb-2e24-45c1-9dcf-e99bfed45960
+      position:
+        x: 148
+        y: 208
+      size:
+        height: 60
+        width: 60
+      z: 3
+    cf86a433-2793-465e-a0e3-d75e32d2c640:
+      source:
+        id: ef96ae79-8d9b-415a-80df-d7b5c855bb13
+      target:
+        id: 192f0050-348e-4adc-90bd-579eeeb454bf
+      z: 3
+    e772ad65-070a-45b5-95c0-c44d8a95fed9:
+      source:
+        id: 46daed38-041d-48ba-9998-bdd3e87376af
+      target:
+        id: 946d8498-a58f-4968-a226-dd8ef2354d82
+      z: 3
+    ef96ae79-8d9b-415a-80df-d7b5c855bb13:
+      dependson:
+        - 192f0050-348e-4adc-90bd-579eeeb454bf
+        - 276f9cf5-1ea8-4f7f-9afa-cffbfecfffb5
+        - c82301e8-e293-42ac-9fb9-333eda7d6e88
+      parent: f2b01ddb-2e24-45c1-9dcf-e99bfed45960
+      position:
+        x: -102
+        y: 208
+      size:
+        height: 60
+        width: 60
+      z: 3
+    f04fae4a-d6e6-42f2-90d4-54a25f80343f:
+      parent: 522f543b-b3fc-4d73-a98b-37c41d882dbb
+      position:
+        x: -240
+        y: 150
+      size:
+        height: 60
+        width: 60
+      z: 3
+    f17fab92-750c-469d-b40d-a3f3ab8cd7f9:
+      source:
+        id: c285d65e-905e-4be4-93d9-b0f9504d80e9
+      target:
+        id: ef96ae79-8d9b-415a-80df-d7b5c855bb13
+      z: 3
+    f2b01ddb-2e24-45c1-9dcf-e99bfed45960:
+      embeds:
+        - 276f9cf5-1ea8-4f7f-9afa-cffbfecfffb5
+        - 192f0050-348e-4adc-90bd-579eeeb454bf
+        - 946d8498-a58f-4968-a226-dd8ef2354d82
+        - c82301e8-e293-42ac-9fb9-333eda7d6e88
+        - 46daed38-041d-48ba-9998-bdd3e87376af
+        - ef96ae79-8d9b-415a-80df-d7b5c855bb13
+        - c285d65e-905e-4be4-93d9-b0f9504d80e9
+        - c8149e12-a523-4aaf-bf24-c3569ff8b618
+        - b55a627f-414a-40af-894d-4b514601d8de
+      isassociatedwith:
+        - 950f98d0-9a01-4ef5-8c9b-92e07ec7c04d
+      parent: 25a11145-640c-4850-98b6-89c3f6f36403
+      position:
+        x: -120
+        y: 90
+      size:
+        height: 330
+        width: 390
+      z: 2
+  relationships:
+    0768651c-b3d9-4488-a052-c2ca46e90478:
+      references:
+        eip:
+          - get_reference: vpcei1yg
+        vpcId:
+          get_reference: vpcvp3cp
+    192f0050-348e-4adc-90bd-579eeeb454bf:
+      references:
+        clusterId:
+          get_reference: ccec4qb0
+    276f9cf5-1ea8-4f7f-9afa-cffbfecfffb5:
+      references:
+        clusterId:
+          get_reference: ccec4qb0
+    46daed38-041d-48ba-9998-bdd3e87376af:
+      references:
+        clusterId:
+          get_reference: ccec4qb0
+        dependency:
+          - get_reference: cces4jfg
+          - get_reference: ccenp55z
+          - get_reference: cces45ra
+    522f543b-b3fc-4d73-a98b-37c41d882dbb:
+      references:
+        vpcId:
+          get_reference: vpcvp3cp
+    79a8dfd9-acc7-445f-8c23-ab4838125984:
+      references:
+        targets:
+          - vpcei1yg
+    859743d9-ffe7-467e-8f48-a7d30bc2e72e:
+      references:
+        clusterId:
+          get_reference: ccec4qb0
+    946d8498-a58f-4968-a226-dd8ef2354d82:
+      references:
+        clusterId:
+          get_reference: ccec4qb0
+    950f98d0-9a01-4ef5-8c9b-92e07ec7c04d:
+      references:
+        vpcId:
+          get_reference: vpcvp3cp
+    ad148d80-d1e2-4f14-a28b-be28a865d560:
+      references:
+        securityGroupId:
+          get_reference: vpcsg2fm
+        subnetId:
+          get_reference: vpcs1twm
+        vpcId:
+          get_reference: vpcvp3cp
+    b55a627f-414a-40af-894d-4b514601d8de:
+      references:
+        appName:
+          get_reference: cced4tng
+        clusterId:
+          get_reference: ccec4qb0
+    c285d65e-905e-4be4-93d9-b0f9504d80e9:
+      references:
+        clusterId:
+          get_reference: ccec4qb0
+        dependency:
+          - get_reference: cced4tng
+        externalIP:
+          - get_reference: elblb53b
+    c8149e12-a523-4aaf-bf24-c3569ff8b618:
+      references:
+        clusterId:
+          get_reference: ccec4qb0
+        dependency:
+          - get_reference: ccess1sc
+    c82301e8-e293-42ac-9fb9-333eda7d6e88:
+      references:
+        clusterId:
+          get_reference: ccec4qb0
+    ef96ae79-8d9b-415a-80df-d7b5c855bb13:
+      references:
+        clusterId:
+          get_reference: ccec4qb0
+        dependency:
+          - get_reference: cces4jfg
+          - get_reference: ccenp55z
+          - get_reference: magento-config
+    f04fae4a-d6e6-42f2-90d4-54a25f80343f:
+      references:
+        securityGroupId:
+          get_reference: vpcsg2fm
+    f2b01ddb-2e24-45c1-9dcf-e99bfed45960:
+      references:
+        subnetId:
+          get_reference: vpcs1twm
+        vpcId:
+          get_reference: vpcvp3cp
+node_templates:
+  apmas51b:
+    metadata:
+      Designer:
+        id: b55a627f-414a-40af-894d-4b514601d8de
+    properties:
+      appName:
+        get_reference: cced4tng
+      clusterId:
+        get_reference: ccec4qb0
+      cooldownTime: 60
+      maxInstances: 10
+      minInstances: 1
+      name: scaler
+      rules:
+        - actions:
+            - parameters:
+                scaleUnit: 1
+              type: scale_out_k8s
+          conditions:
+            - evaluationPeriods: 1
+              metricName: cpuUsage
+              metricNamespace: PAAS.CONTAINER
+              metricOperation: '>'
+              metricThreshold: 70
+              metricUnit: Percent
+              period: 60
+              statistic: average
+          name: condition
+      type: app
+    requirements:
+      - appName:
+          node: cced4tng
+      - clusterId:
+          node: ccec4qb0
+    type: HuaweiCloud.APM.AutoScaler
+  ccec4qb0:
+    metadata:
+      Designer:
+        id: f2b01ddb-2e24-45c1-9dcf-e99bfed45960
+    properties:
+      flavor:
+        get_input: ccec4qb0_flavor
+      subnetId:
+        get_reference: vpcs1twm
+      vpcId:
+        get_reference: vpcvp3cp
+    requirements:
+      - subnetId:
+          node: vpcs1twm
+      - vpcId:
+          node: vpcvp3cp
+    type: HuaweiCloud.CCE.Cluster
+  cced30a3:
+    metadata:
+      Designer:
+        id: c8149e12-a523-4aaf-bf24-c3569ff8b618
+    properties:
+      clusterId:
+        get_reference: ccec4qb0
+      k8sManifest:
+        apiVersion: v1
+        kind: Service
+        metadata:
+          labels:
+            app:
+              get_input: mysql-service-name
+          name:
+            get_input: mysql-service-name
+        spec:
+          ports:
+            - port: 3306
+              protocol: TCP
+              targetPort: 3306
+          selector:
+            app:
+              get_input: mysql-service-name
+    requirements:
+      - dependency:
+          node: ccess1sc
+      - clusterId:
+          node: ccec4qb0
+    type: HuaweiCloud.CCE.Service
+  cced4tng:
+    metadata:
+      Designer:
+        id: ef96ae79-8d9b-415a-80df-d7b5c855bb13
+    properties:
+      clusterId:
+        get_reference: ccec4qb0
+      k8sManifest:
+        apiVersion: 'apps/v1'
+        kind: Deployment
+        metadata:
+          labels:
+            app:
+              get_input: app-name
+          name:
+            get_input: app-name
+        spec:
+          replicas: 1
+          selector:
+            matchLabels:
+              app:
+                get_input: app-name
+          template:
+            metadata:
+              labels:
+                app:
+                  get_input: app-name
+            spec:
+              containers:
+                - env:
+                    - name: MAGENTO_ADMIN_EMAIL
+                      valueFrom:
+                        configMapKeyRef:
+                          key: magento-admin-email
+                          name:
+                            get_attribute:
+                              - magento-config
+                              - refName
+                    - name: MAGENTO_ADMIN_FIRSTNAME
+                      valueFrom:
+                        configMapKeyRef:
+                          key: magento-admin-firstname
+                          name:
+                            get_attribute:
+                              - magento-config
+                              - refName
+                    - name: MAGENTO_ADMIN_LASTNAME
+                      valueFrom:
+                        configMapKeyRef:
+                          key: magento-admin-lastname
+                          name:
+                            get_attribute:
+                              - magento-config
+                              - refName
+                    - name: MAGENTO_ADMIN_PASSWORD
+                      valueFrom:
+                        configMapKeyRef:
+                          key: magento-admin-password
+                          name:
+                            get_attribute:
+                              - magento-config
+                              - refName
+                    - name: MAGENTO_ADMIN_USERNAME
+                      valueFrom:
+                        configMapKeyRef:
+                          key: magento-admin-username
+                          name:
+                            get_attribute:
+                              - magento-config
+                              - refName
+                    - name: MAGENTO_DEFAULT_CURRENCY
+                      valueFrom:
+                        configMapKeyRef:
+                          key: magento-default-currency
+                          name:
+                            get_attribute:
+                              - magento-config
+                              - refName
+                    - name: MAGENTO_LOCALE
+                      valueFrom:
+                        configMapKeyRef:
+                          key: magento-locale
+                          name:
+                            get_attribute:
+                              - magento-config
+                              - refName
+                    - name: MAGENTO_TIMEZONE
+                      valueFrom:
+                        configMapKeyRef:
+                          key: magento-timezone
+                          name:
+                            get_attribute:
+                              - magento-config
+                              - refName
+                    - name: MAGENTO_URL
+                      valueFrom:
+                        configMapKeyRef:
+                          key: magento-url
+                          name:
+                            get_attribute:
+                              - magento-config
+                              - refName
+                    - name: MYSQL_DATABASE
+                      valueFrom:
+                        secretKeyRef:
+                          key: mysql-database
+                          name:
+                            get_input: mysql-service-name
+                    - name: MYSQL_HOST
+                      value:
+                        concat:
+                          - get_input: mysql-service-name
+                          - .default.svc.cluster.local
+                    - name: MYSQL_PASSWORD
+                      valueFrom:
+                        secretKeyRef:
+                          key: mysql-password
+                          name:
+                            get_input: mysql-service-name
+                    - name: MYSQL_USER
+                      valueFrom:
+                        secretKeyRef:
+                          key: mysql-user
+                          name:
+                            get_input: mysql-service-name
+                    - name: REDIS_HOST
+                      value:
+                        get_attribute:
+                          - dcsr1ybz
+                          - refName
+                    - get_attribute:
+                        - dcsr1ybz
+                        - refPort
+                      name: REDIS_PORT
+                      value: null
+                  image: '100.125.0.198:20202/aos-samples/magento:1.9.1.0'
+                  lifecycle:
+                    postStart:
+                      exec:
+                        command:
+                          - '/bin/sh'
+                          - '-c'
+                          - >-
+                            sleep
+                            10;/usr/local/bin/install-sampledata;/usr/local/bin/install-magento
+                  name: magento-container
+                  ports:
+                    - containerPort: 80
+                      protocol: TCP
+              imagePullSecrets:
+                - name: default-secret
+    requirements:
+      - dependency:
+          node: cces4jfg
+      - dependency:
+          node: ccenp55z
+      - dependency:
+          node: magento-config
+      - clusterId:
+          node: ccec4qb0
+    type: HuaweiCloud.CCE.Deployment
+  ccenp55z:
+    metadata:
+      Designer:
+        id: c82301e8-e293-42ac-9fb9-333eda7d6e88
+    properties:
+      clusterId:
+        get_reference: ccec4qb0
+      dataVolumes:
+        - size: 100
+          volumeType: SATA
+      flavor:
+        get_input: ccenp55z_flavor
+      instances: 2
+      name: ''
+      nodePasswd:
+        get_input: ccenp55z_nodePasswd
+      rootVolume:
+        size: 40
+        volumeType: SATA
+    requirements:
+      - clusterId:
+          node: ccec4qb0
+    type: HuaweiCloud.CCE.NodePool
+  cces1kpd:
+    metadata:
+      Designer:
+        id: c285d65e-905e-4be4-93d9-b0f9504d80e9
+    properties:
+      clusterId:
+        get_reference: ccec4qb0
+      k8sManifest:
+        apiVersion: v1
+        kind: Service
+        metadata:
+          labels:
+            app:
+              get_input: app-name
+          name:
+            get_input: app-name
+        spec:
+          loadBalancerIP:
+            get_attribute:
+              - vpcei1yg
+              - refIP
+          ports:
+            - port: 80
+              protocol: TCP
+              targetPort: 80
+          selector:
+            app:
+              get_input: app-name
+          type: LoadBalancer
+    requirements:
+      - externalIP:
+          node: elblb53b
+      - dependency:
+          node: cced4tng
+      - clusterId:
+          node: ccec4qb0
+    type: HuaweiCloud.CCE.Service
+  cces45ra:
+    metadata:
+      Designer:
+        id: 946d8498-a58f-4968-a226-dd8ef2354d82
+    properties:
+      clusterId:
+        get_reference: ccec4qb0
+      name: pvc-mysql-sfs
+      size: 10
+    requirements:
+      - clusterId:
+          node: ccec4qb0
+    type: HuaweiCloud.CCE.Storage.SFS
+  cces4jfg:
+    metadata:
+      Designer:
+        id: 192f0050-348e-4adc-90bd-579eeeb454bf
+    properties:
+      clusterId:
+        get_reference: ccec4qb0
+      data:
+        mysql-database:
+          get_input: mysql-database
+        mysql-password:
+          get_input: mysql-password
+        mysql-root-password:
+          get_input: mysql-root-password
+        mysql-user:
+          get_input: mysql-user
+      name:
+        get_input: mysql-service-name
+    requirements:
+      - clusterId:
+          node: ccec4qb0
+    type: HuaweiCloud.CCE.Secret
+  ccess1sc:
+    metadata:
+      Designer:
+        id: 46daed38-041d-48ba-9998-bdd3e87376af
+    properties:
+      clusterId:
+        get_reference: ccec4qb0
+      k8sManifest:
+        apiVersion: 'apps/v1'
+        kind: StatefulSet
+        metadata:
+          labels:
+            app:
+              get_input: mysql-service-name
+          name:
+            get_input: mysql-service-name
+        spec:
+          replicas: 1
+          selector:
+            matchLabels:
+              app:
+                get_input: mysql-service-name
+          template:
+            metadata:
+              labels:
+                app:
+                  get_input: mysql-service-name
+            spec:
+              containers:
+                - env:
+                    - name: MYSQL_DATAPATH
+                      value: '/opt/data/mysql'
+                    - name: MYSQL_DATABASE
+                      valueFrom:
+                        secretKeyRef:
+                          key: mysql-database
+                          name:
+                            get_input: mysql-service-name
+                    - name: MYSQL_PASSWORD
+                      valueFrom:
+                        secretKeyRef:
+                          key: mysql-password
+                          name:
+                            get_input: mysql-service-name
+                    - name: MYSQL_ROOT_PASSWORD
+                      valueFrom:
+                        secretKeyRef:
+                          key: mysql-root-password
+                          name:
+                            get_input: mysql-service-name
+                    - name: MYSQL_USER
+                      valueFrom:
+                        secretKeyRef:
+                          key: mysql-user
+                          name:
+                            get_input: mysql-service-name
+                  image: '100.125.0.198:20202/aos-samples/mysql:latest'
+                  imagePullPolicy: IfNotPresent
+                  name: mysql-container
+                  ports:
+                    - containerPort: 3306
+                      protocol: TCP
+                  terminationMessagePath: '/dev/termination-log'
+                  terminationMessagePolicy: File
+                  volumeMounts:
+                    - mountPath: '/opt/data/mysql'
+                      name: mysql-mount
+                      readOnly: false
+              imagePullSecrets:
+                - name: default-secret
+              volumes:
+                - name: mysql-mount
+                  persistentVolumeClaim:
+                    claimName: pvc-mysql-sfs
+    requirements:
+      - dependency:
+          node: cces4jfg
+      - dependency:
+          node: ccenp55z
+      - dependency:
+          node: cces45ra
+      - clusterId:
+          node: ccec4qb0
+    type: HuaweiCloud.CCE.StatefulSet
+  dcsr1ybz:
+    metadata:
+      Designer:
+        id: ad148d80-d1e2-4f14-a28b-be28a865d560
+    properties:
+      capacity: 2
+      instanceMode: single
+      password:
+        get_input: dcsr1ybz_password
+      securityGroupId:
+        get_reference: vpcsg2fm
+      subnetId:
+        get_reference: vpcs1twm
+      vpcId:
+        get_reference: vpcvp3cp
+    requirements:
+      - subnetId:
+          node: vpcs1twm
+      - securityGroupId:
+          node: vpcsg2fm
+      - vpcId:
+          node: vpcvp3cp
+    type: HuaweiCloud.DCS.Redis
+  elblb53b:
+    metadata:
+      Designer:
+        id: 0768651c-b3d9-4488-a052-c2ca46e90478
+    properties:
+      name: ''
+      vipAddress:
+        get_attribute:
+          - vpcei1yg
+          - refIP
+      vpcId:
+        get_reference: vpcvp3cp
+    requirements:
+      - eip:
+          node: vpcei1yg
+      - vpcId:
+          node: vpcvp3cp
+    type: HuaweiCloud.ELB.LoadBalancer.External
+  magento-config:
+    metadata:
+      Designer:
+        id: 276f9cf5-1ea8-4f7f-9afa-cffbfecfffb5
+    properties:
+      clusterId:
+        get_reference: ccec4qb0
+      data:
+        magento-admin-email: admin@example.com
+        magento-admin-firstname: Admin
+        magento-admin-lastname: MyStore
+        magento-admin-password: magentorocks1
+        magento-admin-username: admin
+        magento-default-currency: CNY
+        magento-locale: zh_CN
+        magento-timezone: 'Asia/Shanghai'
+        magento-url:
+          concat:
+            - 'http://'
+            - get_attribute:
+                - vpcei1yg
+                - refIP
+        mysql-host:
+          concat:
+            - get_input: mysql-service-name
+            - .default.svc.cluster.local
+    requirements:
+      - clusterId:
+          node: ccec4qb0
+    type: HuaweiCloud.CCE.ConfigMap
+  vpcei1yg:
+    metadata:
+      Designer:
+        id: b3b6b6e4-88c4-47e9-bb51-830365cc74e0
+    properties:
+      bandwidth:
+        chargeMode: bandwidth
+        shareType: PER
+        size: 1
+      publicIP:
+        type: 5_sbgp
+    type: HuaweiCloud.VPC.EIP
+  vpcs1twm:
+    metadata:
+      Designer:
+        id: 950f98d0-9a01-4ef5-8c9b-92e07ec7c04d
+    properties:
+      cidr: '192.168.1.0/24'
+      dhcpEnable: true
+      gateway: 192.168.1.1
+      name: ''
+      vpcId:
+        get_reference: vpcvp3cp
+    requirements:
+      - vpcId:
+          node: vpcvp3cp
+    type: HuaweiCloud.VPC.Subnet
+  vpcsg1ew:
+    metadata:
+      Designer:
+        id: f04fae4a-d6e6-42f2-90d4-54a25f80343f
+    properties:
+      direction: ingress
+      ethertype: IPv4
+      maxPort: 6379
+      minPort: 6379
+      protocol: TCP
+      securityGroupId:
+        get_reference: vpcsg2fm
+    requirements:
+      - securityGroupId:
+          node: vpcsg2fm
+    type: HuaweiCloud.VPC.SecurityGroupRule
+  vpcsg2fm:
+    metadata:
+      Designer:
+        id: 522f543b-b3fc-4d73-a98b-37c41d882dbb
+    properties: {}
+    requirements:
+      - vpcId:
+          node: vpcvp3cp
+    type: HuaweiCloud.VPC.SecurityGroup
+  vpcvp3cp:
+    metadata:
+      Designer:
+        id: 25a11145-640c-4850-98b6-89c3f6f36403
+    properties:
+      cidr: '192.168.0.0/16'
+      name: ''
+    type: HuaweiCloud.VPC.VPC
+outputs:
+  magento-addr:
+    description: Access URL for magento service.
+    value:
+      concat:
+        - 'http://'
+        - get_attribute:
+            - vpcei1yg
+            - refIP
+policies:
+  adds3cmm:
+    metadata:
+      Designer:
+        id: 79a8dfd9-acc7-445f-8c23-ab4838125984
+    properties:
+      appType: 1
+      cleaningAccessPos: 8
+      enableL7: false
+      floatingIpId:
+        get_attribute:
+          - vpcei1yg
+          - refID
+      httpRequestPos: 1
+      trafficPos: 9
+    targets:
+      - vpcei1yg
+    type: HuaweiCloud.AntiDDos.Service
+tosca_definitions_version: huaweicloud_tosca_version_1_0
