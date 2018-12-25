@@ -34,3 +34,5 @@ https://bbs.huaweicloud.com/forum/forum.php?mod=redirect&goto=findpost&ptid=1314
 
 https://education.huaweicloud.com:8443/courses/course-v1:HuaweiX+CBUCNXE018+Self-paced/courseware/2a7d39a0e7074500ab8ac4fa6bf5f446/e696053e22c34c7f8d053524e9190afd/
 
+
+![](https://raw.githubusercontent.com/latermonk/Machine-Learing_7DAY/master/DAY02/PNG/DAY0201.jpg)
