@@ -1,0 +1,117 @@
+{
+  "version": "2.0",
+  "lineDelim": "\n",
+  "delim": ",",
+  "includeHeadRow": false,
+  "attributes": [
+    {
+      "intervals": [
+        {
+          "includeMinimum": true,
+          "maximum": "50000",
+          "minimum": "0",
+          "includeMaximum": true
+        }
+      ],
+      "role": "ID",
+      "nullable": true,
+      "dataType": "INTEGER",
+      "name": "id",
+      "measurement": "CONTINUOUS"
+    },
+    {
+      "intervals": [
+        {
+          "includeMinimum": true,
+          "maximum": "95",
+          "minimum": "18",
+          "includeMaximum": true
+        }
+      ],
+      "role": "INPUT",
+      "nullable": true,
+      "dataType": "INTEGER",
+      "name": "age",
+      "measurement": "CONTINUOUS"
+    },
+    {
+      "role": "INPUT",
+      "nullable": true,
+      "dataType": "STRING",
+      "values": [
+        "admin.",
+        "blue-collar",
+        "entrepreneur",
+        "housemaid",
+        "management",
+        "retired",
+        "self-employed",
+        "services",
+        "student",
+        "technician",
+        "unemployed",
+        "unknown"
+      ],
+      "name": "job",
+      "measurement": "NOMINAL"
+    },
+    {
+      "role": "INPUT",
+      "nullable": true,
+      "dataType": "STRING",
+      "values": [
+        "divorced",
+        "married",
+        "single"
+      ],
+      "name": "marital",
+      "measurement": "NOMINAL"
+    },
+    {
+      "role": "INPUT",
+      "nullable": true,
+      "dataType": "STRING",
+      "values": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "unknown"
+      ],
+      "name": "education",
+      "measurement": "NOMINAL"
+    },
+    {
+      "role": "INPUT",
+      "nullable": true,
+      "dataType": "STRING",
+      "values": [
+        "no",
+        "yes"
+      ],
+      "name": "housing",
+      "measurement": "FLAG"
+    },
+    {
+      "role": "INPUT",
+      "nullable": true,
+      "dataType": "STRING",
+      "values": [
+        "no",
+        "yes"
+      ],
+      "name": "loan",
+      "measurement": "FLAG"
+    },
+    {
+      "role": "TARGET",
+      "nullable": true,
+      "dataType": "STRING",
+      "values": [
+        "no",
+        "yes"
+      ],
+      "name": "label",
+      "measurement": "FLAG"
+    }
+  ]
+}
